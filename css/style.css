@@ -88,6 +88,17 @@ main {
     font-size: 1.35rem;
 }
 
+.profile-image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border: 5px solid var(--surface);
+    border-radius: 50%;
+    box-shadow: 0 6px 18px rgba(35, 38, 50, 0.14);
+    object-fit: cover;
+}
+
 .table-wrapper {
     overflow-x: auto;
 }
